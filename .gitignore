@@ -1,0 +1,52 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and local tool settings
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build and packaging output
+build/
+dist/
+release/
+*.spec.bak
+
+# Runtime data and temporary files
+data_storage.json
+letter_state.json
+all_extracted_letters.txt
+deleted_letters.log
+summary.xlsx
+*.xlsx
+*.pdf
+*.log
+*.tmp
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# External Windows runtime binaries and model data
+*.exe
+*.dll
+*.pyd
+*.traineddata
+*.jar
+ocr/
+ai/ollama/models/
+installer/ollama/
+assets/ollama/
+
+# Windows system files
+Thumbs.db
+Desktop.ini
