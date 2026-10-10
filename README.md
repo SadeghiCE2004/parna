@@ -1,3 +1,5 @@
+[English](README.md) | [فارسی](README.fa.md)
+
 # Parna | Intelligent Correspondence Processing System
 
 **Parna** is a Windows desktop application for viewing and processing correspondence in an organization's letter management system. It uses `Selenium` to access the system, extract letter content, and generate letter summaries and task deadlines locally using the `qwen3.5:latest` model through `Ollama`.
